@@ -1,0 +1,102 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you open the
+% 'Share' menu, you can invite other users to edit at the same
+% time. See www.overleaf.com/learn for more info. Enjoy!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[blue]{classic}
+\usepackage[utf8]{inputenc}
+\usepackage[top=1.5cm, bottom=1.5cm, left=1cm, right=1cm]{geometry}
+\setlength{\hintscolumnwidth}{2.5cm}
+\firstname{Akrem}
+\familyname{ISSAOUI}
+\title{Ingénieur DevOps}
+\address{Tunis, Tunisia}
+\email{akrem.issaoui1@gmail.com}
+\mobile{+216 95 452 074}
+\social[linkedin]{akremissaoui}
+\social[github]{akreem}
+
+\begin{document}
+
+\maketitle
+\section{Profil}
+\cvitem{}{Ingénieur DevOps avec 5+ ans d'expérience spécialisé dans l'architecture Cloud-native (Azure/GCP), l'automatisation des infrastructures (IaC), et l'orchestration de pipelines CI/CD complexes. Expert en conteneurisation Docker/Kubernetes, monitoring, et amélioration continue pour maximiser la disponibilité et accélérer les déploiements. Esprit d'équipe et problem-solver, capable de collaborer efficacement et de s'adapter aux environnements technologiques en évolution.}{}{}{}
+
+\section{Expériences professionnelles}
+\cventry{Juil 2020\\ -- Présent}{Ingénieur Logiciel / DevOps}{Ministère de la Défense}{Tunis}{}{
+\normalsize
+\begin{itemize}%
+\item Développement et implémentation de pipelines CI/CD avec Jenkins et GitLab CI.
+\item Orchestration de conteneurs Docker avec Kubernetes pour un déploiement scalable.
+\item Automatisation du déploiement d’infrastructure avec Ansible.
+\item Mise en place de la stack ELK pour la centralisation et l’analyse des logs en temps réel.
+\item Administration des bases données Oracle et développement des scriptes PL/SQL.
+\item Développement d'applications web et des APIs avec Python (Django/Flask).
+\item Monitoring des infrastructures avec Prometheus et Grafana, suivi des performances et alertes.
+\item Déploiement d’applications et de services sur Microsoft Azure.
+\item Travail en équipe et documentation des configurations système.
+\end{itemize}}
+
+\cventry{Fév 2023\\-- Juil 2023}{Stage en DevSecOps}{OffensyLab}{Tunis}{}{
+\normalsize
+\begin{itemize}%
+\item Développement d'APIs RESTful avec Flask pour des outils de tests de pénétration avancés.
+\item Conteneurisation et déploiement d’outils de sécurité avec Docker et Docker Swarm.
+\item Configuration automatisée d’infrastructure (IaC) avec Ansible.
+\item Gestion des environnements cloud Azure (VMs, Resource Groups, Azure DevOps Pipelines).
+\end{itemize}}
+
+\section{Formation}
+\cventry{Sep 2021\\-- Juil 2023}{Master en Cybersécurité}{Institut Supérieur d'Informatique}{Tunis}{}{}
+\cventry{Sep 2017 -- Juin 2020}{Licence en Informatique}{École de l'Armée de l'Air Tunisienne}{Sfax}{}{}
+
+\section{Compétences}
+\cvitem{Développement}{
+    \begin{itemize}
+        \item \textbf{Python, Django  \& Flask:} Développement des API's et d'applications web.
+    \end{itemize}
+}
+\cvitem{DevOps \& Infrastructure}{
+    \begin{itemize}
+        \item \textbf{Microsoft Azure:} Déploiement, test et monitoring (VMs, Storage, Azure DevOps).
+        \item \textbf{Kubernetes \& Docker:} Orchestration et Gestion des conteneurs.
+        \item \textbf{CI/CD:} Pipelines avec Jenkins et GitLab CI.
+        \item \textbf{Ansible:} Automatisation du déploiement d'infrastructure.
+    \end{itemize}
+}
+\cvitem{Databases}{
+    \begin{itemize}
+        \item \textbf{Oracle, Postgresl, Mysql \& MongoDB:} Administration des bases SQL et NoSql.
+    \end{itemize}
+}
+\cvitem{Systèmes}{
+    \begin{itemize}
+        \item \textbf{Linux \& Windows:} Maîtrise des systèmes Linux et Windows.
+    \end{itemize}
+}
+
+\section{Certifications et Langues}
+
+\cvitem{Certifications}{
+    \begin{itemize}
+        \item \textbf{Cloud Azure:} AZ-900, DP-900, SC-900
+        \item \textbf{IBM:} Cybersecurity Practitioner Certificate
+        \item \textbf{Oracle:} Database Security
+        \item \textbf{Cisco:} Python Essentials
+    \end{itemize}
+}
+
+\cvitem{Langues}{
+    \begin{itemize}
+        \item \textbf{Français, Anglais, Arabe}
+        \end{itemize}
+        }
+
+
+
+
+\end{document}
