@@ -1,3 +1,11 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you open the
+% 'Share' menu, you can invite other users to edit at the same
+% time. See www.overleaf.com/learn for more info. Enjoy!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[11pt,a4paper]{moderncv}
 \moderncvtheme[blue]{classic}
 \usepackage[utf8]{inputenc}
@@ -11,89 +19,84 @@
 \mobile{+216 95 452 074}
 \social[linkedin]{akremissaoui}
 \social[github]{akreem}
-
 \begin{document}
-
 \maketitle
-
+\vspace{-2em}
 \section{Summary}
-\cvitem{}{Highly skilled and organized DevOps Engineer with over 5 years of comprehensive experience in
-system administration, application development, containerization, automation, orchestration, and
-cybersecurity analysis. Proven expertise in designing and maintaining robust, secure, and efficient
-technology solutions. Adept at leveraging cutting-edge DevOps tools and practices to streamline
-operations, enhance productivity, and ensure continuous delivery.}{}{}{}
+\cvitem{}{Highly skilled and organized DevOps Engineer with over 5 years of comprehensive experience in system administration, application development, containerization, automation, orchestration, and cybersecurity analysis. Proven expertise in designing and maintaining robust, secure, and efficient technology solutions. Adept at leveraging cutting-edge DevOps tools and practices to streamline operations, enhance productivity, and ensure continuous delivery.}{}{}{}
 
 \section{Experience}
 \cventry{July 2020\\ -- Present}{Software Engineer}{Ministry of Defense}{Tunis}{}{
+\normalsize
 \begin{itemize}%
-\item Developed and implemented continuous integration and continuous deployment (CI/CD) pipelines using Jenkins, allowing for automated testing and deployment of applications, reducing manual intervention and improving deployment speed.
-\item  Orchestrated Docker containers and managed Kubernetes clusters to streamline application deployment and scalability, ensuring efficient resource utilization and high availability.
-\item Automated infrastructure provisioning and configuration management using Ansible playbooks, reducing deployment time and minimizing errors across multiple environments.
-\item Set up and configured Elasticsearch, Logstash, and Kibana (ELK stack) for centralized log management and real-time log analysis, enabling quick identification and resolution of issues.
-\item  Managed and optimized Oracle databases using PL/SQL scripts, improving database performance, optimizing queries, and ensuring data integrity and security.
-\item  Developed and maintained web applications using Python frameworks such as Django and Flask, as well as PHP with Symfony, ensuring robustness, scalability, and security of the applications.
-\item Implemented monitoring solutions such as Prometheus and Grafana to monitor system performance, resource utilization, and application health, configuring alerts to proactively detect and resolve issues.
-\item  Collaborated with cross-functional teams including developers, QA engineers, and system administrators, and maintained comprehensive documentation of system configurations, processes, and procedures for knowledge sharing and future reference.
+\item Development and implementation of CI/CD pipelines with Jenkins and GitLab CI.
+\item  Orchestrating Docker containers with Kubernetes for scalable deployment.
+\item Automation of infrastructure deployment with Ansible.
+\item Implementation of the ELK stack for centralization and real-time log analysis.
+\item  Administration of Oracle databases and development of PL/SQL scripts.
+\item  Development of web applications and APIs with Python (Django/Flask).
+\item Infrastructure monitoring with Prometheus and Grafana, performance tracking, and alerts.
+\item Deployment of applications and services on Microsoft Azure and Google Cloud Platform.
+\item  Teamwork and documentation of system configurations.
 \end{itemize}}
 
-\cventry{Feb 2023\\-- July 2023}{Automation Intern}{OffensyLab}{Tunis}{}{
+\cventry{Feb 2020\\-- July 2023}{Automation Intern}{OffensyLab}{Tunis}{}{
 \begin{itemize}%
-\item Engineered RESTful APIs using Flask for advanced penetration testing tools, automating security assessments.
-\item Containerized various tools with Docker, ensuring consistent and reliable deployments across multiple environments.
-\item Orchestrated tool scaling and deployment with Kubernetes and Ansible, achieving seamless and automated infrastructure management.
-\item Developed comprehensive automation scripts to streamline operations, reducing manual intervention and operational overhead.
+\item Development of RESTful APIs with Flask for advanced penetration testing tools.
+\item Containerization and deployment of security tools with Docker and Docker Swarm.
+\item Automated infrastructure configuration (IaC) with Ansible.
+\item Management of Azure cloud environments (VMs, Resource Groups, Azure DevOps Pipelines).
 \end{itemize}}
 
 \section{Education}
 \cventry{Sep 2021\\-- July 2023}{Master of Science in Cyber Security}{Higher Institute of Computer Science}{Tunis}{}{}
 \cventry{Sep 2017\\ -- June 2020}{Bachelor of Science in Computer Science}{Tunisian Air Force School}{Sfax}{}{}
 
+\vspace{-1em}
 \section{Skills}
-\cvitem{Development Expertise}{
+\cvitem{Development}{
     \begin{itemize}
-        \item \textbf{Python \& Django:} Built robust web applications.
-        \item \textbf{Flask:} Developed lightweight web applications.
-        \item \textbf{PHP Symfony:} Created scalable web applications.
+        \item \textbf{Python, Django  \& Flask:} Built APIs and robust web applications.
     \end{itemize}
 }
+\vspace{-1em}
 \cvitem{DevOps \& Infrastructure}{
     \begin{itemize}
-        \item \textbf{Docker:} Managed containerized applications.
+        \item \textbf{Microsoft Azure / GCP:} Deployed, tested, and monitored (VMs, Storage, Azure DevOps).
+        \item \textbf{Kubernetes \& Docker:} Orchestrated containerized apps.
+        \item \textbf{CI/CD:} Set up pipelines with Jenkins and GitLab CI.      
         \item \textbf{Ansible:} Automated infrastructure deployment.
-        \item \textbf{Cloud:} Managed applications on GCP and Azure.
-        \item \textbf{Kubernetes:} Orchestrated containerized apps.
-        \item \textbf{CI/CD:} Set up pipelines with Jenkins and GitLab CI.
     \end{itemize}
 }
-\cvitem{Database Management}{
+\vspace{-1em}
+\cvitem{Databases}{
     \begin{itemize}
-        \item \textbf{Oracle:} Optimized databases with PL/SQL scripts.
-        \item \textbf{MySQL \& PostgreSQL:} Managed and optimized databases.
-        \item \textbf{SQL:} Experienced with various SQL databases.
+        \item \textbf{Oracle, Postgresql, Mysql \& MongoDB:} Managed and optimized SQL \& NoSql databases.
     \end{itemize}
 }
-\cvitem{Systems \& Security}{
+\vspace{-1em}
+\cvitem{Systems}{
     \begin{itemize}
         \item \textbf{Linux:} Proficient in Linux-based systems.
-        \item \textbf{Penetration Testing:} Automated security testing.
     \end{itemize}
 }
+\vspace{-1.5em}
+\section{Certifications and Languages}
 
-\section{Certifications}
-\cvitem{}{IoT Fundamentals : Connecting Things}{}{}
-\cvitem{}{Microsoft : Security, Compliance, and Identity Fundamentals}{}{}
-\cvitem{}{Microsoft Certified : Azure Fundamentals}{}{}
-\cvitem{}{Introduction to Cyber security }{}{}
-\cvitem{}{ Google Cloud Essentials}{}{}
+\cvitem{Certifications}{
+    \begin{itemize}
+        \item \textbf{Cloud Azure:} AZ-900, DP-900, SC-900
+        \item \textbf{IBM:} Cybersecurity Practitioner Certificate
+        \item \textbf{Oracle:} Database Security
+        \item \textbf{Cisco:} Python Essentials
+    \end{itemize}
+}
+\vspace{-1em}
 
-
-
-
-\section{Languages}
-
-  \cvitem{Arabic: }{Native language.}
-    \cvitem{English:}{ Fluent.}
-  \cvitem{French: } {Proficient.}
-
+\cvitem{Langues}{
+    \begin{itemize}
+        \item \textbf{English, French, Arabic}
+        \end{itemize}
+        }
 
 \end{document}
